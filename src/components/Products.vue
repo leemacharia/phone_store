@@ -20,14 +20,14 @@ router.push('/product_details')
 </v-container>
 <v-container>
 <v-row>
-<v-col md="4" v-for="item in products" :key="item">
-<v-card color = "lime-lighten-2">
+<v-col md="4" v-for="item in products" :key="item.id">
+<v-card color = "gold">
 <v-card-item>
 <v-img class="align-end text-white" height="300" :src="item.image"
 cover ></v-img>
 <v-card-title>{{item.name}}</v-card-title>
 <v-card-subtitle>{{item.price}}</v-card-subtitle>
-<v-card-text> {{item.description}} </v-card-text>
+<v-card-text> {{item.short_description}} </v-card-text>
 <v-card-text class="text-caption">
 <v-chip> {{ item.brand }} </v-chip>
 {{item.quantity}} remaining

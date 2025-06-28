@@ -45,7 +45,7 @@ console.log(data)
 :size="24" readonly ></v-rating>
 </v-col>
 <v-col md="6">
-<v-btn color="lime-lighten-2" variant="outlined"
+<v-btn color="black" variant="outlined"
 density="compact" readonly> In Stock</v-btn>
 </v-col>
 </v-row>
@@ -55,10 +55,10 @@ density="compact" readonly> In Stock</v-btn>
 <v-card-actions>
 <div>
 <v-btn @click="decrement()" variant="outlined"
-color="lime-lighten-2">-</v-btn>
+color="lblack">-</v-btn>
 <span> {{ quantity }} </span>
 <v-btn @click="increment()" variant="outlined"
-color="lime-lighten-2">+</v-btn>
+color="black">+</v-btn>
 </div>
 <v-btn elevation="4" color="lime" variant="tonal"
 @click="buy(selectedProduct.id)" > Buy </v-btn>

@@ -62,7 +62,7 @@ phone for your needs.
 </v-card>
 </v-col>
 <v-col md="12">
-<v-card color="lime">
+<v-card color="black">
 <v-card-text>
 Phone: 0712345678
 </v-card-text>
